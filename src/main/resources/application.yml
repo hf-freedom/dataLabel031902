@@ -1,0 +1,29 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: todo-plugin
+
+# 自定义配置
+app:
+  # 管理员配置
+  admin:
+    id: admin001
+    username: admin
+    password: admin123
+    role: ADMIN
+  # 普通用户配置
+  users:
+    - id: user001
+      username: zhangsan
+      password: 123456
+      role: USER
+    - id: user002
+      username: lisi
+      password: 123456
+      role: USER
+    - id: user003
+      username: wangwu
+      password: 123456
+      role: USER
